@@ -5,7 +5,7 @@
 go run schemas/main.go --schema-next=false
 
 # Execute generation
-kiota generate -l csharp --ll trace -o generated/csharp/GitHub/Octokit -c OctokitClient -n GitHub.Octokit -d schemas/downloaded.json --co
+dotnet tool run kiota generate -l csharp --ll trace -o generated/csharp/GitHub/Octokit -c OctokitClient -n GitHub.Octokit -d schemas/downloaded.json --co
 
 # Build and run post-processor
 go build -o $(pwd)/post-processors/csharp/post-processor post-processors/csharp/main.go

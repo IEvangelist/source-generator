@@ -3,6 +3,9 @@ nuget.exe
 output.txt
 schemas/downloaded.json
 
+# Kiota related
+*kiota*
+
 # GO Related
 generated/go/*
 !generated/go/main.go
@@ -10,7 +13,7 @@ post-processors/go/output
 post-processors/go/post-processor
 
 #.NET Related
-generated/csharp/GitHub/Octokit
+# generated/csharp/GitHub/Octokit
 generated/csharp/GitHub/kiota-lock.json
 generated/csharp/GitHub/bin
 generated/csharp/GitHub/obj
