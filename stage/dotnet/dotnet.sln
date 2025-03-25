@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-sdk", "dotnet-sdk", "{4AF0975D-B4C5-4005-C24C-006309BFF8D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-sdk-enterprise-cloud", "dotnet-sdk-enterprise-cloud", "{417F24CB-C522-E1B8-CF8E-3015CD614C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-sdk-enterprise-server", "dotnet-sdk-enterprise-server", "{D12C8DE1-B0D8-0DEC-4CF8-C332A012A654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli", "dotnet-sdk\cli\cli.csproj", "{087DF519-6DBB-B50C-C254-546E879D1E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Octokit.SDK", "dotnet-sdk\src\GitHub.Octokit.SDK.csproj", "{4323608D-139F-0318-B7A5-968037F56293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "dotnet-sdk\test\Tests.csproj", "{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli", "dotnet-sdk-enterprise-cloud\cli\cli.csproj", "{239FF094-3960-8082-DA15-F6EAC813C751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Octokit.GHEC.SDK", "dotnet-sdk-enterprise-cloud\src\GitHub.Octokit.GHEC.SDK.csproj", "{D059510D-89EF-6726-59D7-14DF97E18D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "dotnet-sdk-enterprise-cloud\test\Tests.csproj", "{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli", "dotnet-sdk-enterprise-server\cli\cli.csproj", "{A7559983-E812-E7F5-9BD9-64B9FB75F20A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHub.Octokit.GHES.SDK", "dotnet-sdk-enterprise-server\src\GitHub.Octokit.GHES.SDK.csproj", "{34C19572-5D78-A647-062B-560170AC06D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "dotnet-sdk-enterprise-server\test\Tests.csproj", "{66A1BAF3-8EAA-E259-DA54-09452365109B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{087DF519-6DBB-B50C-C254-546E879D1E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087DF519-6DBB-B50C-C254-546E879D1E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087DF519-6DBB-B50C-C254-546E879D1E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087DF519-6DBB-B50C-C254-546E879D1E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4323608D-139F-0318-B7A5-968037F56293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4323608D-139F-0318-B7A5-968037F56293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4323608D-139F-0318-B7A5-968037F56293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4323608D-139F-0318-B7A5-968037F56293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239FF094-3960-8082-DA15-F6EAC813C751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239FF094-3960-8082-DA15-F6EAC813C751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239FF094-3960-8082-DA15-F6EAC813C751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239FF094-3960-8082-DA15-F6EAC813C751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D059510D-89EF-6726-59D7-14DF97E18D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D059510D-89EF-6726-59D7-14DF97E18D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D059510D-89EF-6726-59D7-14DF97E18D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D059510D-89EF-6726-59D7-14DF97E18D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7559983-E812-E7F5-9BD9-64B9FB75F20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7559983-E812-E7F5-9BD9-64B9FB75F20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7559983-E812-E7F5-9BD9-64B9FB75F20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7559983-E812-E7F5-9BD9-64B9FB75F20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C19572-5D78-A647-062B-560170AC06D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C19572-5D78-A647-062B-560170AC06D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C19572-5D78-A647-062B-560170AC06D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C19572-5D78-A647-062B-560170AC06D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A1BAF3-8EAA-E259-DA54-09452365109B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A1BAF3-8EAA-E259-DA54-09452365109B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A1BAF3-8EAA-E259-DA54-09452365109B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A1BAF3-8EAA-E259-DA54-09452365109B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{087DF519-6DBB-B50C-C254-546E879D1E40} = {4AF0975D-B4C5-4005-C24C-006309BFF8D4}
+		{4323608D-139F-0318-B7A5-968037F56293} = {4AF0975D-B4C5-4005-C24C-006309BFF8D4}
+		{BC7CEE7B-BC19-25C2-468C-CEE27AA1A4CE} = {4AF0975D-B4C5-4005-C24C-006309BFF8D4}
+		{239FF094-3960-8082-DA15-F6EAC813C751} = {417F24CB-C522-E1B8-CF8E-3015CD614C9E}
+		{D059510D-89EF-6726-59D7-14DF97E18D34} = {417F24CB-C522-E1B8-CF8E-3015CD614C9E}
+		{D34253B7-C4F3-F3BD-2E0C-F2FCA95DC4A0} = {417F24CB-C522-E1B8-CF8E-3015CD614C9E}
+		{A7559983-E812-E7F5-9BD9-64B9FB75F20A} = {D12C8DE1-B0D8-0DEC-4CF8-C332A012A654}
+		{34C19572-5D78-A647-062B-560170AC06D8} = {D12C8DE1-B0D8-0DEC-4CF8-C332A012A654}
+		{66A1BAF3-8EAA-E259-DA54-09452365109B} = {D12C8DE1-B0D8-0DEC-4CF8-C332A012A654}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7654551-BCE8-44F5-A5FF-F4C4A7F85881}
+	EndGlobalSection
+EndGlobal
